@@ -26,7 +26,7 @@ pip install -r requirements.txt
 3. Execute o script utilizando o comando:
 
 ```bash
-python monitor_certificado.py
+python3 monitor_certificado.py
 ```
 
 4. Digite o nome do domínio e pressione enter.
