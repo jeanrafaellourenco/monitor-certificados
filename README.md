@@ -29,11 +29,7 @@ pip install -r requirements.txt
 python monitor_certificado.py
 ```
 
-Por padrão, o script consulta o domínio `redbull.com`. Para alterar o domínio, edite a variável `domain` no script:
-
-```python
-domain = "seu-dominio.com"
-```
+4. Digite o nome do domínio e pressione enter.
 
 ### Saída
 
@@ -43,7 +39,6 @@ Os subdomínios exclusivos serão salvos em um arquivo chamado `DOMINIO_unique_u
 
 Os seguintes parâmetros podem ser configurados no script:
 
-- `domain`: O domínio a ser consultado.
 - `output_file`: Nome do arquivo de saída.
 - `retries`: Número de tentativas em caso de falha.
 - `delay`: Intervalo (em segundos) entre as tentativas.
